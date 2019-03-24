@@ -1,0 +1,45 @@
+/*****************************
+PedidosYa.com
+*****************************/
+/* Featured Items */
+.content_most_order .most_order_card .content_info .content_text {
+  height: auto !important;
+}
+
+.content_most_order .most_order_card .content_info .content_text .description {
+  height: auto !important;
+  white-space: normal !important;
+}
+
+/* Regular Items */
+#menu ul li.product-full-card {
+  display: inline-block !important;
+  float: none !important;
+  height: auto !important;
+  vertical-align: top;
+}
+
+#menu ul li.product-full-card .content {
+  height: auto !important;
+  padding-bottom: 25px !important;
+}
+
+#menu ul li.product-full-card h4.productName,
+#menu ul li.product-full-card .product-description {
+  display: block !important;
+  max-height: none !important;
+  -webkit-line-clamp: unset !important;
+}
+
+/*****************************
+Domicilios.com
+*****************************/
+/* Items */
+.product-item {
+  max-height: none !important;
+}
+
+.product-item-details__description,
+.product-item-details__name {
+  max-height: none !important;
+}
